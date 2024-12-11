@@ -1,0 +1,37 @@
+.compras {
+    border: 1px solid black;
+    width : 50%;
+    height: 40vh;
+    margin: auto
+}
+
+.compras td, .compras th { 
+   padding: 1%;
+
+}
+
+.compras th {
+    background-color: black;
+    color: white;
+}
+
+.par {
+    background-color: rgb(148, 142, 142);
+}
+
+.impar {
+    background-color: #eee;
+}
+
+.preco {
+    text-align: right;
+}
+
+.numero-linha {
+    text-align: center;
+}
+
+
+.acoes, .paginas {
+    text-align: center;
+}

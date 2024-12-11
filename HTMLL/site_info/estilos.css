@@ -1,0 +1,120 @@
+
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px 0;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    color: #f8f9fa;
+    margin: 0 5px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    display: flex;
+    width: calc(50% - 50px);
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 80px;
+
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(37, 2, 133);
+    color: aliceblue;
+    border: none;
+    border-radius: 12px; 
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: rgb(25, 1, 90); /* Altera a cor ao passar o mouse sobre o botão */
+}
+
+.ajuste{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ajuste2{
+    margin-left: 240px;
+}
+@media (max-width: 767px) {
+    .col-md-8,
+    .col-md-4 {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+}
+

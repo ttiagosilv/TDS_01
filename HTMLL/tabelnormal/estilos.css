@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 100px;
+    padding-top: 0px;
+}
+td, th {
+    border: 1px solid black; 
+    text-align: center;
+}
+.alinhamento{
+    width : 50%;
+    height: 5vh;
+}
+.slr{
+    width : 8%;
+}
+.slr1{
+    border: 1px solid black;
+    width : 30%;
+    height: 10vh;
+}
+.a{
+    vertical-align: top;
+    width : 100%;
+    height: 10vh;
+}
+.b{
+    vertical-align: bottom;
+    width : 100%;
+    height: 10vh;
+}
+table {
+    border-collapse: collapse;
+  }
+  .cell {
+    width: 50px;
+    height: 50px;
+  }
+  .white {
+    background-color: #fff;
+  }
+  .black {
+    background-color: #000;
+  }
+  .piece {
+    background-image: url('imagem/Ilustração-Círculo-3d-PNG.png');
+    background-size: cover;
+  }
+  .piecee {
+    background-image: url('imagem/circle_PNG4.png');
+    background-size: cover;
+  }
+  
